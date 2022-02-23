@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#checkbox:checked + label div.switch-ball{
+    transform: translateX(32px);
+    transition: transform 0.3s linear;
+}
+
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+ .scroll-icon {
+    z-index: 1;
+    position: absolute;
+    width: 13px;
+    height: 70px;
+    bottom: 20px;
+    border-right: 1px dashed rgba(255, 255, 255, 0.3);
+    margin: 10px auto;
+    left: 100px;
+}
+
+.scroll-icon span {
+    writing-mode: vertical-rl;
+    position: absolute;
+    height: 200px;
+    top: -130px;
+}
+
+.outline-text {
+    font-weight: bold;
+    -webkit-text-stroke: 2px #1E40AF;
+    color: transparent;
+    letter-spacing: 1px;
+}
+.outline-two {
+    font-weight: bold;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    letter-spacing: 1px;
+}
+
+ion-icon {
+    margin: 2px;
+    --ionicon-stroke-width: 10px;
+  }
+
+ion-icon.hey {
+    font-size: 100px;
+    --ionicon-stroke-width: 10px;
+}
+
+ion-icon.front {
+    font-size: 50px;
+    --ionicon-stroke-width: 10px;
+}
+
+ion-icon.projects {
+    font-size: 50px;
+    --ionicon-stroke-width: 10px;
+}
+
+.cover-background {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}

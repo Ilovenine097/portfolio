@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro Robert Jr. - Portfolio</title>
+    <link rel="stylesheet" href="./public/css/tailwind.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+</head>
+<body>
+    <div class="fixed bottom-6 right-6 z-50 md:bottom-10 md:right-">
+            <div class="ml-2">
+                <input type="checkbox" name="" id="checkbox" class="hidden" />
+                <label for="checkbox" class="cursor-pointer">
+                  <div class="w-14 h-6 flex items-center bg-gray-500 rounded-full p-1 dark:bg-darkcyan">
+                    <div class="w-4 h-4 bg-white rounded-full shadow switch-ball dark:bg-darkbg"></div>
+                  </div>
+                </label>
+            </div>
+            <span class="text-xs font-bold text-gray-500 dark:text-white">DARK MODE</span>
+    </div>
+    <section class="bg-primary dark:bg-darkbg">
+        <div id="particles-js"></div>
+        <nav id="header" class="w-full md:px-16 md:py-4 z-30 top-0 text-white">
+            <div class="w-full container mx-auto flex flex-wrap items-center justify-between py-2">
+              <div class="pl-4 flex items-center">
+                <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                  <img src="./public/images/logo.png" alt="logo" class="h-14 w-10" />
+                </a>
+              </div>
+              <div class="block lg:hidden pr-4">
+                <button id="nav-toggle" class="flex items-center p-1 text-white hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                  </svg>
+                </button>
+              </div>
+              <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                  <li class="mr-3">
+                    <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="meow.html">INTRO</a>
+                  </li>
+                  <li class="mr-3">
+                     <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="#">ABOUT</a>
+                  </li>
+                  <li class="mr-3">
+                     <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="#">CONTACT</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        
+        <div class="flex px-6 md:pb-16">
+            <div class="flex flex-wrap flex-col md:flex-row sm:items-center">
+                <div class="sm:w-full md:w-2/4">
+                    <center><img src="./public/images/profile.png" class="sm:w-full h-auto md:w-3/4 dark:fill-darkcyan"></center>
+                </div>
+                <div class="sm:w-full md:w-2/4 py-4">
+                    <h1 class="text-white text-3xl font-extralight dark:text-darkcyan">YOW I'M</h1>
+                    <h1 class="text-white text-6xl sm:text-7xl md:text-8xl font-black dark:text-darktext">ROBERT <br>MAESTRO </h1>
+                    <h1 class="text-white text-base md:text-2xl tracking-widest my-3 font-extralight dark:text-darkcyan">CREATIVE <span class="typed"></span></h1>
+                    <button class="bg-transparent  text-white hover:text-white mt-3 py-2 px-4 border border-white rounded-md hover:bg-black dark:border-darkcyan dark:text-darkcyan">
+                        Download CV
+                    </button>
+                    <div class="mt-6 sm:mt-6 mb-10">
+                        <ion-icon name="logo-facebook" class="front text-white dark:text-darktext"></ion-icon>
+                        <ion-icon name="logo-instagram" class="front text-white dark:text-darktext"></ion-icon>
+                        <ion-icon name="logo-github" class="front text-white dark:text-darktext"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-icon text-white invisible md:visible dark:text-darkcyan">
+            <span class="dark:text-darkcyan"> SCROLL DOWN</span>
+        </div>
+    </section>
+
+      <section class="bg-nuetral px-0 py-10 md:px-20 dark:bg-darkbglight">
+        <div class="text-center py-16 md:py-10">
+            <div data-aos="fade-up" class="sm:mb-2 md:mb-0">
+                <h1 class="text-5xl md:text-6xl text-gray-800 font-black dark:text-darktext">"EVERY STAR HAS A PATH</h1>
+            </div>
+            <div data-aos="fade-down">
+                <h1 class="text-5xl text-primary md:text-6xl font-black dark:text-darkcyan">FIND YOURS"</h1>
+            </div>
+        </div>
+        <h1 class="text-3xl text-secondary text-center font-extralight dark:text-darkcyan">WHAT I DO</h1>
+        <div class="container mx-auto flex flex-wrap mb-0">
+                <div class="w-full md:w-1/3 p-3 flex flex-col">
+                    <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow p-3 md:p-6 text-center dark:bg-darkwhite">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                            <p class="w-full p-6">
+                                <ion-icon name="bar-chart-outline" class="hey text-primary dark:text-darktext"></ion-icon>
+                            </p>
+                            <div class="w-full font-bold text-2xl text-gray-800 px-6 dark:text-darktext">
+                            UI / UX DESIGN
+                            </div>
+                            <p class="text-gray-800 text-base px-6 dark:text-darktext">
+                                Prototyping layout for user research, user flow, wire-framing and organizing a meaningful content in a way that tells a story.
+                            </p>
+                        </a>
+                    </div>
+                    <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                    <div class="flex items-center justify-start">
+                        <button class="mx-auto bg-primary  text-white hover:text-white mt-3 py-2 px-4 rounded-md border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">
+                            View Sample
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            
+            <div class="w-full md:w-1/3 p-3 flex flex-col">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow p-3 md:p-6 text-center dark:bg-darkwhite">
+                    <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                    <p class="w-full p-6">
+                        <ion-icon name="newspaper-outline" class="hey text-primary dark:text-darktext"></ion-icon>
+                    </p>
+                    <div class="w-full font-bold text-2xl text-gray-800 px-6 dark:text-darktext">
+                    GRAPHICS DESIGN
+                    </div>
+                    <p class="text-gray-800 text-base px-6 dark:text-darktext">
+                        Creating visual concepts such as advertisements, banner, logo, mockup, video presentation and other design for digital printing.
+                    </p>
+                </a>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-start">
+                    <button class="mx-auto bg-primary  text-white hover:text-white mt-3 py-2 px-4 rounded-md border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">
+                        View Sample
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3 p-3 flex flex-col">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow p-3 md:p-6 text-center dark:bg-darkwhite">
+                <a href="#" class="flex flex-wrap no-underline hover:no-underline">
+                    <p class="w-full p-6">
+                        <ion-icon name="id-card-outline" class="hey text-primary dark:text-darktext"></ion-icon>
+                    </p>
+                    <div class="w-full font-bold text-2xl text-gray-800 px-6 dark:text-darktext">
+                    PHOTOGRAPHY
+                    </div>
+                    <p class="text-gray-800 text-base px-6 dark:text-darktext">
+                        I also love photography it helps me to share and capture memories with others and gives me a different type of emotions.
+                    </p>
+                </a>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-start">
+                    <button class="mx-auto bg-primary  text-white hover:text-white mt-3 py-2 px-4 rounded-md border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">
+                        View Sample
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="bg-primary py-10 dark:bg-darkbg">
+        <div class="flex px-0 sm:px-4 md:px-24">
+            <div class="flex flex-wrap flex-col md:flex-row">
+                <div class="sm:w-full md:w-2/4">
+                    <center><img src="./public/images/frontimage.png" class="w-full h-auto sm:w-full md:w-11/12 dark:fill-darkcyan"></center>
+                </div>
+                <div class="sm:w-full md:w-2/4 py-4">
+                    <div class="bg-info rounded-md p-12 dark:bg-darkbglight">
+                        <h1 class="text-white text-5xl sm:text-6xl font-bold dark:text-darktext">ABOUT ME</h1>
+                        <p class="text-white text-base my-3 dark:text-darktext py-2">
+                            Yow! I'm Robert and I enjoy designing things on the internet. It all started when I used
+                            Microsoft paint in our computer laboratory way back in college days just to draw moon and stars.<br><br>
+                            Fast forward to today, I've had some knowledge to code and design the internet things which focus
+                            Is to build a path in UI/UX or Front-End development. I recently become an Graphics Artists for an 
+                            Start-up printing shop for one years and hoping to step up another level to this career.
+                        </p>
+                        <div>
+                            <h1 class="text-white text-3xl font-extralight dark:text-darkcyan py-3">Work Experience</h1>
+
+                            <p class="text-white text-base font-bold dark:text-darktext">
+                                Graphics Designer
+                             </p>
+                            <p class="text-white text-base dark:text-darktext">
+                               Amare Apparel Printing Services
+                            </p>
+                            <p class="text-white text-base dark:text-darktext">
+                                September 2020 - November 2021
+                             </p>
+                        </div>
+                        <br>
+                        <div>
+                            <h1 class="text-white text-3xl font-extralight dark:text-darkcyan py-3">Contact Information</h1>
+
+                            <p class="text-white text-base dark:text-darktext">
+                                Dr. Sixto Antonio Ave. Rosario, Pasig City
+                             </p>
+                            <p class="text-white text-base dark:text-darktext">
+                                robertmaestro09@gmail.com
+                            </p>
+                            <p class="text-white text-base dark:text-darktext">
+                                09465410631
+                             </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="bg-nuetral py-6 dark:bg-darkbglight">
+          <div class="text-center my-10">
+            <h1 class="text-5xl text-primary font-black md:text-6xl dark:text-darktext">SAMPLE</h1>
+            <h1 class="text-5xl text-primary font-black md:text-6xl dark:text-darkcyan">PROJECTS</h1>
+          </div>
+          <div class="container mx-auto flex flex-wrap md:px-40">
+            <div class="w-full md:w-2/4 flex flex-col p-3">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center dark:bg-darkwhite">
+                    <div class="w-full font-bold text-2xl text-gray-800">
+                        <img src="./public/images/capstone-project.png" alt="" class="">
+                    </div>
+                    <div class="p-6">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline my-0 md:mx-10 mt-0 md:mt-4">
+                            <div class="w-full font-bold text-2xl text-gray-800 dark:text-darktext">
+                            CSC QR-CODE ATTENDANCE SYSTEM USING ANDROID SCANNER
+                            </div>
+                        <p class="text-gray-800 text-base dark:text-darktext">
+                            Tracking and monitoring students attendance system using android apps which scan students unique qr-code 
+                            and passing the data to the web-server, then to record attendance data and handle the volume of student 
+                            more faster than traditional one. It also includes the automatic computation of student fines and penalty.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 justify-center">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscgreen text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Php</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscred text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Mysql</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscgreen text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Javascript</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscred text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Material UI</span>
+                    </div>
+                    <div class="flex space-x-2 justify-center mt-2">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscgreen text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Codeigniter</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-cscred text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Java</span>
+                    </div>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-center">
+                    <ion-icon name="logo-github" class="projects text-primary dark:text-darkcyan"></ion-icon>
+                    <h1 class="text-black dark:text-darkcyan">View on Github</h1>
+                </div>
+                </div>
+            </div>
+            
+            <div class="w-full md:w-2/4 flex flex-col p-3">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center dark:bg-darkwhite">
+                    <div class="w-full font-bold text-2xl text-gray-800">
+                        <img src="./public/images/wtl.png" alt="" class="">
+                    </div>
+                    <div class="p-6">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline my-0 md:mx-10 mt-0 md:mt-4">
+                            <div class="w-full font-bold text-2xl text-gray-800 dark:text-darktext">
+                            WTL CONSTRUCTION INVENTORY SYSTEM
+                            </div>
+                        <p class="text-gray-800 text-base dark:text-darktext">
+                        All i can say is lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 justify-center">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-primary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Codeigniter</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-secondary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Javascript</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-primary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Bootstrap</span>
+                    </div>
+                    <div class="flex space-x-2 justify-center mt-2">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-secondary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Php</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-primary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Mysql</span>
+                    </div>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-center">
+                    <ion-icon name="logo-github" class="projects text-primary dark:text-darkcyan"></ion-icon>
+                    <h1 class="text-black dark:text-darkcyan">View on Github</h1>
+                </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-2/4 flex flex-col p-3">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center dark:bg-darkwhite">
+                    <div class="w-full font-bold text-2xl text-gray-800">
+                        <img src="./public/images/ojtpmesda-project.png" alt="" class="">
+                    </div>
+                    <div class="p-6">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline my-0 md:mx-10 mt-0 md:mt-4">
+                            <div class="w-full font-bold text-2xl text-gray-800 dark:text-darktext">
+                            OJTPMESDA
+                            </div>
+                        <p class="text-gray-800 text-base dark:text-darktext">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 justify-center">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-ojtcyan text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Codeigniter</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-ojtnavyblue text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Javascript</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-ojtcyan text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Bootstrap</span>
+                    </div>
+                    <div class="flex space-x-2 justify-center mt-2">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-ojtnavyblue text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Php</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-ojtcyan text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan">Mysql</span>
+                    </div>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-center">
+                    <ion-icon name="logo-github" class="projects text-primary dark:text-darkcyan"></ion-icon>
+                    <h1 class="text-black dark:text-darkcyan">View on Github</h1>
+                </div>
+                </div>
+            </div>
+
+            <div class="w-full md:w-2/4 flex flex-col p-2">
+                <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow text-center dark:bg-darkwhite">
+                    <div class="w-full font-bold text-2xl text-gray-800">
+                        <img src="./public/images/portfolio-project.png" alt="" class="">
+                    </div>
+                    <div class="p-6">
+                        <a href="#" class="flex flex-wrap no-underline hover:no-underline my-0 md:mx-10 mt-0 md:mt-4">
+                            <div class="w-full font-bold text-2xl text-gray-800 dark:text-darktext">
+                            MY PORTFOLIO
+                            </div>
+                        <p class="text-gray-800 text-base dark:text-darktext">
+                            All i can say is lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                            But this portfolio is made of hardwork and love.
+                        </p>
+                        </a>
+                    </div>
+                    <div class="flex space-x-2 justify-center">
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-primary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan"">Javascript</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-secondary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan"">Html</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-primary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan"">Css</span>
+                        <span class="text-xs inline-block py-1 px-3 leading-none text-center whitespace-nowrap align-baseline bg-secondary text-white rounded-full border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan"">Tailwind</span>
+                    </div>
+                </div>
+                <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite">
+                <div class="flex items-center justify-center">
+                    <ion-icon name="logo-github" class="projects text-primary dark:text-darkcyan"></ion-icon>
+                    <h1 class="text-black dark:text-darkcyan">View on Github</h1>
+                </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+      <section class="bg-primary dark:bg-darkbg">
+        <div class="flex px-6 pt-10">
+            <div class="flex flex-wrap flex-col md:flex-row sm:items-center">
+                <div class="sm:w-full md:w-2/4">
+                    <center><img src="./public/images/skills.png" class="sm:w-full h-auto md:w-3/4"></center>
+                </div>
+                <div class="sm:w-full md:w-2/4 py-4">
+                    <h1 class="text-4xl font-bold text-white">TECHNICAL SKILLS</h1>
+                    <div>
+                        <ion-icon name="logo-html5" class="front"></ion-icon>
+                        <ion-icon name="logo-css3" class="front"></ion-icon>
+                        <ion-icon name="logo-javascript" class="front"></ion-icon>
+                    </div>
+                    <div>
+                        <ion-icon name="logo-html5" class="front"></ion-icon>
+                        <ion-icon name="logo-css3" class="front"></ion-icon>
+                        <ion-icon name="logo-javascript" class="front"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles-config.js"></script>
+    <script src="./js/app.js"></script>
+      
+    <script>
+        const checkbox = document.querySelector("#checkbox");
+        const html = document.querySelector("html");
+  
+        const toggleDarkMode = function () {
+          checkbox.checked
+          ? html.classList.add("dark")
+          : html.classList.remove("dark");
+        }
+  
+      //calling the function directly
+  
+        toggleDarkMode();
+        checkbox.addEventListener("click",toggleDarkMode);
+  
+    </script>
+
+    <script>
+        $(document).ready(function(){
+          $('.owl-carousel').owlCarousel({
+              autoWidth: true,
+              dots: false,
+              loop:true,
+              margin:10,
+              autoplay:true,
+              autoplayTimeout:2000,
+              autoplayHoverPause:true,
+              nav:false,
+              items: 3
+          })
+        });
+    </script>
+</body>
+</html>
