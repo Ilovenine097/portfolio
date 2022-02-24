@@ -1227,6 +1227,10 @@ ion-icon.projects {
     bottom: 2.5rem;
   }
 
+  .md\:right-6{
+    right: 1.5rem;
+  }
+
   .md\:mx-10{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
