@@ -592,6 +592,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0px;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -793,6 +797,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(44 62 80 / var(--tw-bg-opacity));
 }
 
+.bg-darktext{
+  --tw-bg-opacity: 1;
+  background-color: rgb(204 214 246 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50{
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-100{
+  --tw-bg-opacity: 1;
+}
+
+.bg-opacity-75{
+  --tw-bg-opacity: 0.75;
+}
+
+.bg-opacity-95{
+  --tw-bg-opacity: 0.95;
+}
+
 .fill-current{
   fill: currentColor;
 }
@@ -988,6 +1013,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .no-underline{
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
+}
+
+.opacity-50{
+  opacity: 0.5;
 }
 
 .shadow{
