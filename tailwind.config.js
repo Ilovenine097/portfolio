@@ -1,7 +1,7 @@
 
 module.exports = {
   content: [
-    './public/*.html'
+    './*.html'
   ],
   darkMode: "class",
   theme: {
@@ -24,9 +24,7 @@ module.exports = {
         darkwhite: '#152b51',
         info: '#2750ce'
       },
-      backgroundImage: {
-        aboutbg: "url('./public/images/bg.jpg')",
-      }
+      translate: ['dark']
     }
   },
   plugins: [],
