@@ -1213,6 +1213,10 @@ ion-icon.projects {
     width: 100%;
   }
 
+  .sm\:w-4\/5{
+    width: 80%;
+  }
+
   .sm\:items-center{
     align-items: center;
   }
@@ -1290,6 +1294,10 @@ ion-icon.projects {
 
   .md\:p-12{
     padding: 3rem;
+  }
+
+  .md\:p-16{
+    padding: 4rem;
   }
 
   .md\:px-16{
