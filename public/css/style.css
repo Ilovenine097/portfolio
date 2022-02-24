@@ -9,6 +9,10 @@
     transition: transform 0.3s linear;
 }
 
+#checkbox:checked + label div.switch-ball :focus{
+    outline: none;
+}
+
 #particles-js{
     position: absolute;
     width: 100%;
