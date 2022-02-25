@@ -1326,6 +1326,10 @@ ion-icon.projects {
     align-items: center;
   }
 
+  .sm\:justify-center{
+    justify-content: center;
+  }
+
   .sm\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1397,6 +1401,10 @@ ion-icon.projects {
 
   .md\:w-11\/12{
     width: 91.666667%;
+  }
+
+  .md\:w-full{
+    width: 100%;
   }
 
   .md\:flex-row{
