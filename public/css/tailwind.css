@@ -536,6 +536,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 20;
 }
 
+.m-2{
+  margin: 0.5rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -554,6 +558,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-0{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .ml-2{
@@ -594,6 +603,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-10{
   margin-top: 2.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .block{
@@ -640,6 +653,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 4rem;
 }
 
+.h-12{
+  height: 3rem;
+}
+
 .w-14{
   width: 3.5rem;
 }
@@ -674,6 +691,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-2\/6{
   width: 33.333333%;
+}
+
+.w-12{
+  width: 3rem;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .flex-1{
