@@ -734,6 +734,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 5rem;
 }
 
+.w-8{
+  width: 2rem;
+}
+
 .flex-1{
   flex: 1 1 0%;
 }
@@ -1048,6 +1052,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-24{
   padding-top: 6rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .text-center{
