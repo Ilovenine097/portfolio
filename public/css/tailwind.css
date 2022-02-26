@@ -609,6 +609,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -1351,6 +1363,14 @@ ion-icon.projects {
     margin-bottom: 0.5rem;
   }
 
+  .sm\:mb-4{
+    margin-bottom: 1rem;
+  }
+
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
   .sm\:w-full{
     width: 100%;
   }
@@ -1450,6 +1470,14 @@ ion-icon.projects {
 
   .md\:w-full{
     width: 100%;
+  }
+
+  .md\:w-3\/5{
+    width: 60%;
+  }
+
+  .md\:w-2\/5{
+    width: 40%;
   }
 
   .md\:flex-row{
