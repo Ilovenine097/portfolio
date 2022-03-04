@@ -4,8 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.dark-mode-switcher .dark-mode-switcher__toggle {
+    width: 38px;
+    height: 24px;
+    padding: 1px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 9999px;
+    outline-offset: 2px;
+}
+
 #checkbox:checked + label div.switch-ball{
-    transform: translateX(32px);
+    transform: translateX(24px);
     transition: transform 0.3s linear;
 }
 
