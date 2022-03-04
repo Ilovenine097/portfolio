@@ -615,6 +615,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1.5rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1244,6 +1248,10 @@ ion-icon.projects {
     margin-bottom: 0.5rem;
   }
 
+  .sm\:mr-0{
+    margin-right: 0px;
+  }
+
   .sm\:w-full{
     width: 100%;
   }
@@ -1288,6 +1296,14 @@ ion-icon.projects {
 
   .md\:mt-4{
     margin-top: 1rem;
+  }
+
+  .md\:mr-0{
+    margin-right: 0px;
+  }
+
+  .md\:mr-10{
+    margin-right: 2.5rem;
   }
 
   .md\:w-2\/4{
