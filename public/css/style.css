@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
 
 .dark-mode-switcher .dark-mode-switcher__toggle {
     width: 38px;
