@@ -1391,6 +1391,10 @@ ion-icon.projects {
     visibility: visible;
   }
 
+  .md\:m-5{
+    margin: 1.25rem;
+  }
+
   .md\:mx-10{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -1510,6 +1514,11 @@ ion-icon.projects {
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .md\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
