@@ -715,6 +715,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-evenly;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -821,6 +825,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-opacity-80{
   --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-90{
+  --tw-bg-opacity: 0.9;
 }
 
 .object-cover{
@@ -1650,6 +1658,11 @@ ion-icon.projects {
 .dark .dark\:hover\:text-darkbg:hover{
   --tw-text-opacity: 1;
   color: rgb(10 25 47 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:text-darkcyan:hover{
+  --tw-text-opacity: 1;
+  color: rgb(100 255 218 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px){
