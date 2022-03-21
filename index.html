@@ -9,44 +9,43 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <div class="dark-mode-switcher shadow-md fixed bottom-0 right-0 box bg-white rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-2 md:mr-10 dark:bg-darkwhite duration-300">
-        <div class="text-sm text-gray-800 dark:text-white duration-300">Dark Mode</div>
+    <div class="dark-mode-switcher darkmode-bg">
+        <div class="darkmode-label">Dark Mode</div>
         <div class="ml-2">
             <input type="checkbox" name="" id="checkbox" class="hidden" />
             <label for="checkbox" class="cursor-pointer">
-                <div class="w-14 h-8 p-1 rounded-full bg-gray-200 dark:bg-darkcyan duration-300">
-                    <div class="w-6 h-6 bg-white border rounded-full absolute switch-ball dark:bg-white duration-300"></div>
+                <div class="toogle-bg">
+                    <div class="toogle-button"></div>
                 </div>
             </label>
         </div>
     </div>
-    <section class="bg-primary dark:bg-darkbg duration-700">
+    <section class="rm-home">
         <div id="particles-js"></div>
-        <nav id="header" class="fixed w-full md:px-24 z-30 top-0 dark:bg-darkbg duration-700">
-            <div class="w-full container mx-auto flex flex-wrap items-center justify-between py-2">
-              <div class="pl-4 flex items-center">
-                <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+        <nav id="header" class="rm-nav">
+            <div class="rm-nav-item">
+              <div class="rm-logo">
+                <a class="rm-img" href="#">
                   <img src="./public/images/logo.svg" alt="logo" class="h-12 w-8" />
                 </a>
               </div>
               <div class="block lg:hidden pr-4">
-                <button id="nav-toggle" class="flex items-center p-1 text-white hover:text-gray-900 focus:outline-none focus:shadow-outline transform hover:scale-105 duration-300">
-                  <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <title>Menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                  </svg>
-                </button>
+                <div class="wrapper-menu">
+                    <div class="line-menu half start"></div>
+                    <div class="line-menu"></div>
+                    <div class="line-menu half end"></div>
+                  </div>
               </div>
-              <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-                <ul class="list-reset lg:flex justify-end flex-1 items-center">
+              <div class="rm-nav-list">
+                <ul class="ul-list">
                   <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="#about">ABOUT</a>
+                    <a class="list" href="#about">ABOUT</a>
                   </li>
                   <li class="mr-3">
-                     <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="#project">PROJECT</a>
+                     <a class="list" href="#project">PROJECT</a>
                   </li>
                   <li class="mr-3">
-                     <a class="inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan" href="#skills">SKILLS</a>
+                     <a class="list" href="#skills">SKILLS</a>
                   </li>
                 </ul>
               </div>
@@ -54,7 +53,7 @@
         </nav>
         <div class="pt-20">
             <div class="px-6 md:pb-16">
-                <div class="flex flex-col md:flex-row items-center">
+                <div class="dashboard">
                     <div class="sm:w-full md:w-2/4">
                         <center><img src="./public/images/profile.svg" class="w-full lg:w-3/4"></center>
                     </div>

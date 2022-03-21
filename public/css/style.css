@@ -4,8 +4,49 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
     scroll-behavior: smooth;
+}
+
+.darkmode-bg {
+    @apply shadow-md fixed bottom-0 right-0 bg-white rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-2 md:mr-10 dark:bg-darkwhite duration-300;
+}
+.darkmode-label {
+    @apply text-sm text-gray-800 dark:text-white duration-300;
+}
+.toogle-bg {
+    @apply w-14 h-8 p-1 rounded-full bg-gray-200 dark:bg-darkcyan duration-300;
+}
+.toogle-button {
+    @apply w-6 h-6 bg-white border rounded-full absolute switch-ball dark:bg-white duration-300;
+}
+.rm-home {
+    @apply bg-primary dark:bg-darkbg duration-700;
+}
+.rm-nav {
+    @apply fixed w-full md:px-24 z-30 top-0 dark:bg-darkbg duration-700;
+}
+.rm-nav-item {
+    @apply w-full container mx-auto flex flex-wrap items-center justify-between py-2;
+}
+.rm-logo {
+    @apply pl-4 flex items-center;
+}
+.rm-img {
+    @apply text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl;
+}
+.rm-nav-list {
+  @apply w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20;
+}
+.ul-list {
+    @apply lg:flex justify-end flex-1 items-center;
+}
+.list {
+  @apply inline-block py-2 px-4 text-white font-bold no-underline dark:text-darkcyan;
+}
+.dashboard {
+    @apply flex flex-col md:flex-row items-center;
 }
 
 .dark-mode-switcher .dark-mode-switcher__toggle {
@@ -92,3 +133,47 @@ ion-icon.projects {
     background-size: cover;
     background-position: 50% 50%;
 }
+
+.wrapper-menu {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 330ms ease-out;
+  }
+  
+  .wrapper-menu.open {
+    transform: rotate(-45deg);  
+  }
+  
+  .line-menu {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 6px;
+  }
+  
+  .line-menu.half {
+    width: 50%;
+  }
+  
+  .line-menu.start {
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: right;
+  }
+  
+  .open .line-menu.start {
+    transform: rotate(-90deg) translateX(3px);
+  }
+  
+  .line-menu.end {
+    align-self: flex-end;
+    transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+    transform-origin: left;
+  }
+  
+  .open .line-menu.end {
+    transform: rotate(-90deg) translateX(-3px);
+  }
