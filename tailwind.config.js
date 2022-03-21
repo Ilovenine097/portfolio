@@ -6,6 +6,19 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      animation: {
+        wiggle: 'wiggle 2s infinite',
+      },
+      keyframes: {
+        wiggle: {
+          '0%, 100%': {
+            transform: 'scale(1.2) rotate(5deg)',
+          },
+          '50%': {
+            transform: 'scale(0.8) rotate(-5deg)',
+          }
+        }
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif']
       },
