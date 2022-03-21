@@ -21,33 +21,23 @@
         </div>
     </div>
 
-    <div id="sidebar"> 
-        <div class="list">
-          <div class="item"><a href="https://www.pixoverlab.com/" target="_blank">Pixover Lab</a></div>
-          <div class="item">About us</div>
-          <div class="item">Gallery</div>
-          <div class="item">Contact us</div>
-        </div>
-      </div>
-
-    <!-- <div class="absolute top-16 left-0 w-full h-full backdrop-blur-sm z-50">
-       <div class="bg-white -left-72 w-72 h-72 rounded-lg p-4 transition-all duration-300 ease-linear" id="sidebar">
-            <div class="flex flex-col">
-                <div>
+    <div id="overlay" class="invisible fixed top-0 left-0 w-full h-full backdrop-blur-sm z-20"></div>
+       <div class="fixed bg-gradient-to-r from-cyan-500 to-blue-500 bg-opacity-20 top-16 -right-72 w-72 h-full transition-all duration-300 ease-linear z-30 rounded-sm" id="sidebar">
+            <div class="flex flex-col items-center justify-center space-y-6">
+                <div class="text-2xl text-white">
                     What I Do
                 </div>
-                <div>
+                <div class="text-2xl text-white">
                     About Me
                 </div>
-                <div>
+                <div class="text-2xl text-white">
                     Project
                 </div>
-                <div>
+                <div class="text-2xl text-white">
                     Skills
                 </div>
             </div>
        </div>
-    </div> -->
 
     <section class="rm-home">
         <div id="particles-js"></div>
@@ -89,7 +79,7 @@
                     <div class="sm:w-full md:w-2/4">
                         <center><img src="./public/images/profile.svg" class="w-full lg:w-3/4"></center>
                     </div>
-                    <div class="sm:w-full md:w-2/4 py-4 z-20">
+                    <div class="sm:w-full md:w-2/4 py-4 z-10">
                         <h1 class="text-white text-3xl font-extralight dark:text-darkcyan duration-300">YOW I'M</h1>
                         <h1 class="text-white text-6xl sm:text-7xl md:text-8xl font-black dark:text-darktext duration-300">ROBERT <br>MAESTRO </h1>
                         <h1 class="text-white text-base md:text-2xl tracking-widest my-3 font-extralight dark:text-darkcyan duration-300">CREATIVE <span class="typed"></span></h1>
@@ -481,6 +471,8 @@
     <script>
         function toggleSidebar(ref){
             document.getElementById("sidebar").classList.toggle('active');
+            document.getElementById("overlay").classList.toggle('active')
+
         }
     </script>
     
