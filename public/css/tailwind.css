@@ -699,6 +699,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-wrap: wrap;
 }
 
+.items-start{
+  align-items: flex-start;
+}
+
 .items-center{
   align-items: center;
 }
@@ -713,6 +717,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-evenly{
   justify-content: space-evenly;
+}
+
+.justify-items-start{
+  justify-items: start;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1765,6 +1773,14 @@ ion-icon.projects {
 
   .lg\:w-3\/4{
     width: 75%;
+  }
+
+  .lg\:items-start{
+    align-items: flex-start;
+  }
+
+  .lg\:justify-start{
+    justify-content: flex-start;
   }
 
   .lg\:justify-end{
