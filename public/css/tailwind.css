@@ -524,6 +524,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -18rem;
 }
 
+.top-16{
+  top: 4rem;
+}
+
 .z-20{
   z-index: 20;
 }
@@ -649,6 +653,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-auto{
   height: auto;
+}
+
+.h-20{
+  height: 5rem;
+}
+
+.h-24{
+  height: 6rem;
 }
 
 .w-full{
@@ -807,6 +819,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(44 62 80 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -957,6 +973,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-thin{
+  font-weight: 100;
 }
 
 .leading-none{
