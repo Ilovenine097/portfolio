@@ -39,10 +39,26 @@ const toggleDarkMode = function () {
  //calling the function directly
   toggleDarkMode();
   checkbox.addEventListener("click",toggleDarkMode);
+  
+  let submenu = document.getElementById("submenu");
+  let sidebarBtn = document.getElementById("sidebar-btn");
+  let sidebar = document.getElementById("sidebar");
+  let overlay = document.getElementById("overlay");
 
+  sidebarBtn.addEventListener('click', function() {
+      sidebarBtn.classList.toggle('open'); 
+      sidebar.classList.toggle('active');
+      overlay.classList.toggle('active')
+  })
 
-  var wrapperMenu = document.querySelector('.wrapper-menu');
+  overlay.addEventListener('click', function() {
+      sidebar.classList.toggle('active');
+      overlay.classList.toggle('active');
+      sidebarBtn.classList.toggle('open')
+  })
 
-  wrapperMenu.addEventListener('click', function(){
-    wrapperMenu.classList.toggle('open');  
+  submenu.addEventListener('click', function() {
+      sidebar.classList.toggle('active');
+      overlay.classList.toggle('active');
+      sidebarBtn.classList.toggle('open')
   })
