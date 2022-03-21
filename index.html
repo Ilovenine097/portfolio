@@ -20,6 +20,35 @@
             </label>
         </div>
     </div>
+
+    <div id="sidebar"> 
+        <div class="list">
+          <div class="item"><a href="https://www.pixoverlab.com/" target="_blank">Pixover Lab</a></div>
+          <div class="item">About us</div>
+          <div class="item">Gallery</div>
+          <div class="item">Contact us</div>
+        </div>
+      </div>
+
+    <!-- <div class="absolute top-16 left-0 w-full h-full backdrop-blur-sm z-50">
+       <div class="bg-white -left-72 w-72 h-72 rounded-lg p-4 transition-all duration-300 ease-linear" id="sidebar">
+            <div class="flex flex-col">
+                <div>
+                    What I Do
+                </div>
+                <div>
+                    About Me
+                </div>
+                <div>
+                    Project
+                </div>
+                <div>
+                    Skills
+                </div>
+            </div>
+       </div>
+    </div> -->
+
     <section class="rm-home">
         <div id="particles-js"></div>
         <nav id="header" class="rm-nav">
@@ -30,7 +59,7 @@
                 </a>
               </div>
               <div class="block lg:hidden pr-4">
-                <div class="wrapper-menu">
+                <div class="wrapper-menu" onclick="toggleSidebar(this)">
                     <div class="line-menu half start"></div>
                     <div class="line-menu"></div>
                     <div class="line-menu half end"></div>
@@ -38,8 +67,11 @@
               </div>
               <div class="rm-nav-list">
                 <ul class="ul-list">
+                    <li class="mr-3">
+                        <a class="list" href="#whatido">WHAT I DO</a>
+                      </li>
                   <li class="mr-3">
-                    <a class="list" href="#about">ABOUT</a>
+                    <a class="list" href="#about">ABOUT ME</a>
                   </li>
                   <li class="mr-3">
                      <a class="list" href="#project">PROJECT</a>
@@ -85,7 +117,7 @@
         </div>
     </section>
 
-      <section class="bg-nuetral px-0 py-10 md:px-20 dark:bg-darkbglight duration-700">
+      <section id="whatido" class="bg-nuetral px-0 py-10 md:px-20 dark:bg-darkbglight duration-700">
         <div class="text-center py-4 md:py-16 overflow-hidden">
             <div data-aos="fade-right"  data-aos-duration="2000" class="sm:mb-2 md:mb-0">
                 <h1 class="text-5xl md:text-6xl text-gray-800 font-black dark:text-darktext duration-300">"DO WHAT YOU LOVE</h1>
@@ -445,6 +477,12 @@
     <script src="./public/js/particles.min.js"></script>
     <script src="./public/js/particles-config.js"></script>
     <script src="./public/js/app.js"></script>
+
+    <script>
+        function toggleSidebar(ref){
+            document.getElementById("sidebar").classList.toggle('active');
+        }
+    </script>
     
 </body>
 </html>
