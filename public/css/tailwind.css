@@ -619,6 +619,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
 }
 
+.ml-10{
+  margin-left: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -647,6 +651,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-14{
+  height: 3.5rem;
+}
+
+.h-16{
+  height: 4rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -657,6 +673,18 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-8{
   width: 2rem;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-12{
+  width: 3rem;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .flex-1{
@@ -711,6 +739,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
 .overflow-hidden{
   overflow: hidden;
 }
@@ -729,6 +763,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .rounded-t{
@@ -818,6 +856,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-70{
+  --tw-bg-opacity: 0.7;
 }
 
 .bg-gradient-to-r{
@@ -1495,6 +1537,11 @@ ion-icon.projects {
 .hover\:bg-white:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover{

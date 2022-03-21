@@ -21,19 +21,27 @@
         </div>
     </div>
 
-    <div id="overlay" class="invisible fixed top-0 left-0 w-full h-full backdrop-blur-sm z-20"></div>
-       <div class="fixed bg-white bg-opacity-50 top-16 -right-72 w-72 h-full transition-all duration-300 ease-linear z-30 rounded-sm" id="sidebar">
-            <div class="flex flex-col items-center justify-center space-y-6">
-                <div class="text-2xl text-white">
+    <div id="overlay" class="invisible fixed top-0 left-0 w-full h-full backdrop-blur-sm z-20 transition-all duration-300 ease-linear" onclick="toggleSidebar(this)"></div>
+       <div class="fixed bg-white bg-opacity-80 top-16 -right-72 w-72 h-full transition-all duration-300 ease-linear z-30 rounded-lg" id="sidebar">
+            
+            <div class="flex flex-col  justify-start space-y-4 text-primary ml-10">
+                <div class="flex flex-row text-2xl text-white">
+                    <img src="./public/images/logo.svg" alt="" class="w-16 h-16 rounded-full">
+                </div>
+                <div class="p-4 text-2xl hover:bg-primary hover:text-white">
+                    <ion-icon name="heart-half-outline" size="large"></ion-icon>
                     What I Do
                 </div>
-                <div class="text-2xl text-white">
+                <div class="p-4 text-2xl hover:bg-primary hover:text-white">
+                    <ion-icon name="hand-right"></ion-icon>
                     About Me
                 </div>
-                <div class="text-2xl text-white">
+                <div class="p-4 text-2xl hover:bg-primary hover:text-white">
+                    <ion-icon name="navigate"></ion-icon>
                     Project
                 </div>
-                <div class="text-2xl text-white">
+                <div class="p-4 text-2xl hover:bg-primary hover:text-white">
+                    <ion-icon name="american-football"></ion-icon>
                     Skills
                 </div>
             </div>
