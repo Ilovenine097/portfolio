@@ -732,6 +732,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 60%;
 }
 
+.h-72{
+  height: 18rem;
+}
+
+.h-96{
+  height: 24rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -881,6 +889,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-x-4{
@@ -2064,6 +2076,10 @@ ion-icon.projects {
 
   .lg\:justify-end{
     justify-content: flex-end;
+  }
+
+  .lg\:gap-4{
+    gap: 1rem;
   }
 
   .lg\:p-6{
