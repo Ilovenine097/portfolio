@@ -9,7 +9,7 @@ html {
 }
 
 .darkmode-bg {
-    @apply shadow-md fixed bottom-0 right-0 bg-white rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 mr-2 md:mr-10 dark:bg-darkwhite duration-300;
+    @apply shadow-md fixed bottom-0 right-0 bg-white rounded-full w-40 h-12 flex items-center justify-center z-40 mb-10 mr-2 md:mr-10 dark:bg-darkwhite duration-300;
 }
 .darkmode-label {
     @apply text-sm text-gray-800 dark:text-white duration-300;

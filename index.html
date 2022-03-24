@@ -9,6 +9,31 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
+
+    <div class="invisible fixed bg-gray-800 bg-opacity-30 inset-0 w-full h-full backdrop-blur-sm z-50 transition-all duration-300 ease-linear" id="modal_overlay"></div>
+    <div class="invisible flex fixed inset-0 items-center justify-center w-full h-full z-50 transition-all duration-300 ease-linear" id="modal">
+        <div class="h-3/4 w-3/4 bg-white bg-opacity-80 rounded-lg p-6">
+            <div class="flex justify-between">
+                <h1 class="text-2xl">Design Sample</h1>
+                <button id="modal-close" class="w-24 h-8 rounded-sm bg-red-600 text-white hover:scale-105">Close</button>
+            </div>
+            <h1 class="text-sm">Responsive Student Management Template > <a href="https://rbrtmstr09.herokuapp.com/" class="underline font-semibold text-green-600">http://rbrtmstr09.heroku.app</a></h1>
+            <div class="flex flex-row gap-x-4 mt-4">
+                <div class="w-3/4">
+                    <img src="./public/images/dashboard.png" alt="" class="w-full">
+                </div>
+                <div class="w-1/4 flex flex-col">
+                    <img src="./public/images/sign-in.png" alt="" class="w-full">
+                    <img src="./public/images/forgot-password.png" alt="" class="w-full">
+                    <img src="./public/images/signup.png" alt="" class="w-full">
+                </div>
+                   
+            </div>
+        </div>
+    </div>
+
+
     <div class="dark-mode-switcher darkmode-bg">
         <div class="darkmode-label">Dark Mode</div>
         <div class="ml-2">
@@ -159,11 +184,9 @@
                     </div>
                     <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow-md p-6 dark:bg-darkwhite duration-300">
                         <div class="flex items-center justify-center">
-                            <a href="#">
-                                <button class="mx-auto bg-primary  text-white hover:text-white mt-3 py-2 px-4 rounded-md border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan duration-300">
-                                    View Sample
-                                </button>
-                            </a>
+                            <button id="ux-btn" class="mx-auto bg-primary  text-white hover:text-white mt-3 py-2 px-4 rounded-md border dark:bg-transparent dark:border-darkcyan dark:text-darkcyan duration-300">
+                                View Sample
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -448,7 +471,7 @@
       
       <footer>  
         <section class="bg-primary dark:bg-darkbg duration-700 overflow-hidden">
-            <div class="p-10 text-center">
+            <div class="my-8 text-center">
                 <h1 class="text-4xl text-white text-center p-2 dark:text-darktext">Want to know More?</h1>
                 <a href="./public/images/robert_resume.pdf" target=”_blank”>
                     <button class="bg-transparent  text-white mt-3 py-2 px-4 border border-white rounded-md hover:scale-110 dark:border-darkcyan dark:text-darkcyan duration-300">
@@ -457,7 +480,7 @@
                 </a>
             </div>
 
-            <div class="p-4 px-0 sm:px-4 md:px-24">
+            <div class="p-2 px-0 sm:px-4 md:px-24">
                 <div class="flex flex-col md:flex-row items-center justify-center p-4">
                     <div class="sm:w-full md:w-2/4 flex justify-center lg:justify-end m-0 lg:m-2">
                         
@@ -470,7 +493,7 @@
                         <a href="https://github.com/Ilovenine097">
                             <ion-icon name="logo-github" class="front text-white dark:text-darktext duration-300 hover:scale-125"></ion-icon>
                         </a>
-                        <a href="https://github.com/Ilovenine097">
+                        <a href="mailto:robertmaestro09@gmail.com">
                             <ion-icon name="mail" class="front text-white dark:text-darktext duration-300 hover:scale-125"></ion-icon>
                         </a>
                         <a href="#">

@@ -1,4 +1,16 @@
 
+let modal_close = document.getElementById("modal-close");
+let modal = document.getElementById("modal");
+let modal_overlay = document.getElementById("modal_overlay");
+let ux_button = document.getElementById("ux-btn");
+ux_button.addEventListener("click", function(){
+  modal.classList.remove("invisible");
+  modal_overlay.classList.remove("invisible");
+})
+modal_close.addEventListener("click", function(){
+  modal.classList.add("invisible");
+  modal_overlay.classList.add("invisible");
+})
 
 AOS.init({
     duration: 2000
