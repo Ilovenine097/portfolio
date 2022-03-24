@@ -16,14 +16,17 @@
         <div class="h-3/4 w-11/12 lg:w-3/4 bg-white bg-opacity-80 rounded-lg p-6">
             <div class="flex justify-between">
                 <h1 class="text-2xl">Design Sample</h1>
-                <button id="modal-close" class="w-24 h-8 rounded-sm bg-red-600 text-white hover:scale-105">Close</button>
+                <div id="modal-close" class="relative flex items-center justify-center rounded-full w-10 h-10 border-2 border-red-600 hover:scale-105">
+                    <div class="absolute rotate-45 w-1 h-6 rounded-sm bg-red-600"></div>
+                    <div class="absolute -rotate-45 w-1 h-6 rounded-sm bg-red-600"></div>
+                </div>
             </div>
             <h1 class="text-sm">Responsive Student Management Template > <a href="https://rbrtmstr09.herokuapp.com/" class="underline font-semibold text-green-600">http://rbrtmstr09.heroku.app</a></h1>
             <div class="flex flex-col lg:flex-row gap-x-4 mt-4">
                 <div class="w-full lg:w-3/4">
                     <img src="./public/images/dashboard.png" alt="" class="w-full">
                 </div>
-                <div class="w-1/4 flex flex-row lg:flex-col sm:gap-4">
+                <div class="w-1/4 flex flex-row lg:flex-col">
                     <img src="./public/images/sign-in.png" alt="" class="w-full">
                     <img src="./public/images/forgot-password.png" alt="" class="w-full">
                     <img src="./public/images/signup.png" alt="" class="w-full">
