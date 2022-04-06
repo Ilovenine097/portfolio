@@ -1,4 +1,7 @@
 
+$(function(){
+  $("#container1").twentytwenty();
+});
 
 AOS.init({
     duration: 2000
