@@ -23,7 +23,7 @@ module.exports = {
         sans: ['Poppins', 'sans-serif']
       },
       colors: {
-        primary: '#1E40AF',
+        primary: '#03045e',
         nuetral: '#F1F5F9',
         secondary: '#1e293b',
         cscgreen: '#8dad16',

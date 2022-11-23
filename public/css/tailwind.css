@@ -577,6 +577,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-0{
   margin-top: 0px;
   margin-bottom: 0px;
@@ -585,11 +590,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-2{
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 .mr-3{
@@ -875,7 +875,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary{
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-color: rgb(3 4 94 / var(--tw-bg-opacity));
 }
 
 .bg-cscgreen{
@@ -1092,7 +1092,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-primary{
   --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
+  color: rgb(3 4 94 / var(--tw-text-opacity));
 }
 
 .text-secondary{
@@ -1285,7 +1285,7 @@ html {
 
 .rm-home{
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-color: rgb(3 4 94 / var(--tw-bg-opacity));
   transition-duration: 700ms;
 }
 
@@ -1687,12 +1687,12 @@ ion-icon.projects {
 
 .hover\:bg-primary:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-color: rgb(3 4 94 / var(--tw-bg-opacity));
 }
 
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
+  color: rgb(3 4 94 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover{
