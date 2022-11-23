@@ -20,10 +20,10 @@ module.exports = {
         }
       },
       fontFamily: {
-        sans: ['Gochi Hand', 'cursive']
+        sans: ['Poppins', 'sans-serif']
       },
       colors: {
-        primary: '#1E40AF',
+        primary: '#237A57',
         nuetral: '#F1F5F9',
         secondary: '#1e293b',
         cscgreen: '#8dad16',
@@ -36,7 +36,7 @@ module.exports = {
         darkbglight: '#112240',
         darkwhite: '#152b51',
         info: '#2750ce',
-        purple: '#ff00cc'
+        purple: '#093028'
       },
       translate: ['dark']
     }
