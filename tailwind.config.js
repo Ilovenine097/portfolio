@@ -23,7 +23,7 @@ module.exports = {
         sans: ['Poppins', 'sans-serif']
       },
       colors: {
-        primary: '#237A57',
+        primary: '#1E40AF',
         nuetral: '#F1F5F9',
         secondary: '#1e293b',
         cscgreen: '#8dad16',
@@ -36,7 +36,7 @@ module.exports = {
         darkbglight: '#112240',
         darkwhite: '#152b51',
         info: '#2750ce',
-        purple: '#093028'
+        purple: '#820068'
       },
       translate: ['dark']
     }
