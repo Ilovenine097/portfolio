@@ -36,7 +36,7 @@ module.exports = {
         darkbglight: '#112240',
         darkwhite: '#152b51',
         info: '#2750ce',
-        purple: '#820068'
+        purple: '#7F00FF'
       },
       translate: ['dark']
     }

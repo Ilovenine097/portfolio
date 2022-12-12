@@ -21,7 +21,7 @@ html {
     @apply w-6 h-6 bg-white border rounded-full absolute switch-ball dark:bg-white duration-300;
 }
 .rm-home {
-    @apply bg-primary;
+    @apply bg-gradient-to-r from-primary to-purple;
 }
 .rm-nav {
     @apply fixed w-full md:px-24 z-30 top-0 dark:bg-darkbg duration-700;

@@ -1284,8 +1284,10 @@ html {
 }
 
 .rm-home{
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #1E40AF;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(30 64 175 / 0));
+  --tw-gradient-to: #7F00FF;
 }
 
 .rm-nav{
